@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sobre mi </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.clouudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="logo"> 
+        <img src="hoja.jpg">
+    </div>
+    
+    
+    <header>
+       <b> <h1 class="text">Juan Pescador</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="inicio">Inicio</a> </li>
+                <li><a href="#sobre-mi" class="sobremi">Sobre mi</a></li>
+                <li><a href="#proyectos" class="proyectos">Proyectos</a></li>
+                <li><a href="#contacto" class="contacto">Contacto</a></li>
+                <li><a href="#mapa" class="mapa"> Mapa</a></li>
+                <li><a href="#Formulario" class="Formulario"> Formulario</a></li>
+            </ul>
+       </nav>
+    </header>
+    <section id="inicio"> 
+        <div class="container">
+           <marquee class="marque"> <h2><b>Bienvenido A Mi Pagina Personal</b></h2></marquee>
+           
+           
+        </div>
+
+    </section>
+    <section id="sobremi"> 
+        <div class="container">
+            <h2><b>Sobre mi </b> </h2>
+            <p><b>Deportista de alto rendimiento especializado en el conmbate,<br> tengo 18 años actualmente sin empleo terminando el bachiller yendo al gimnasio <br>
+                 guitarrista, gamer y muchas cosas mas</b></p>
+        </div>
+
+    </section>
+    <section id="proyectos"> 
+        <div class="container">
+            <b><h2>Algunos proyectos a los que aspiro</h2>
+            <p>Invertir, generar ganancias especializarme en la programacion <br>
+            comprar hogar y terreno, algunos lujos como carro y etc, aparrte de seguir con el deporte</p></b>
+        </div>
+
+    </section>
+    <section id="contacto"> 
+        <div class="container">
+            <b><h2>Puedes encontrarme en instagram como:</h2>
+            <p>Lucifugorocale</p> <h4>o en Facebook como:</h4>
+            <p>Luciferr Mush</p> </b>
+            
+        </div>
+
+    </section>
+    <div class="formulario">
+        <h2><b>Formulario de contacto</h2></b>
+        <form action="#">
+            <div class="campo">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+
+            <div class="campo">
+                <input type="email" name="email" id="email" placeholder="Correo">
+            </div>
+
+            <div class="campo">
+                <textarea name="mensaje" id="mensaje" rows="10" placeholder="Mensaje"> </textarea>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar">
+            </div>
+            <div>
+                <section id="Formulario"></section>
+            </div>
+            
+    
+    </div>
+    <i class="scroll-to-top"></i>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6956079525703!2d-75.43051962418419!3d6.171495627152096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469e78b840720f%3A0x9263a9a2a8b8e1b8!2sAeropuerto%20Internacional%20Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova!5e0!3m2!1ses!2sco!4v1715871336412!5m2!1ses!2sco" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        width="100"
+        height="300"
+        style="border: 0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        id="mapa">
+    </iframe>
+    <a href="header" class="solid fa-arrow-up"><i class="fas fa-arrow-up"></i></a>
+    
+
+    <footer>
+        <p>Derechos de autor &copy; 2024 - Juan Pescador </p>
+    </footer>
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $('a.scroll-to-top').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+$('a.mapa').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+$('a.sobremi').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+$('a.proyectos').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+$('a.inicio').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+$('a.contacto').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+$('a.Formulario').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},800);
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+ :root{
+   --sombra: 0 0 40px #838282;
+
+ }
+
+ 
+ 
+ 
+ body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(jongsun-lee-F-pSZO_jeE8-unsplash.jpg);
+    background-attachment: fixed;
+    
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 243, 243, 0.904);
+    
+ }
+ 
+ 
+ header{
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+ }
+ header h1{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+
+ }
+ nav ul{
+   list-style-type:none;
+   padding: 0;
+   text-align: center;
+ }
+ nav ul li{
+   display: inline;
+   margin-right: 20px;
+ }
+ nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   border-radius: 10px;
+   padding: 12px 18px 12px 18px;
+ }
+ .container{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+ }
+ section{
+   padding: 50px 0;
+ }
+ footer{
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+ }
+ nav ul a:hover{
+   background: #fff;
+   padding: 12px 18px 12px 18px;
+   color: #333;
+ }
+ .formulario{
+   max-width: 500px;
+   margin: 50px auto;
+   background-color: #000000;
+   padding: 20px;
+   border-radius: 7%;
+   border-color: #ffffff;
+   box-shadow: 0 0 10px rgb(252, 252, 252);
+   height: 500px;
+   border-radius: 5px;
+   border: solid;
+   
+ }
+ .formulario h2{
+   color:#ffffff ;
+   margin-bottom: 20px;
+   text-align: center;
+  
+  
+ }
+
+ div.campo{
+   margin-bottom: 20px;
+   box-shadow: 0 0 10px #fff;
+   border-radius: 7px;
+   border: solid;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ 
+
+ 
+ 
+
+ 
+ 
+ textarea{
+   width: 100%;
+   padding: 4%;
+   border: 1px solid #d6d6d6;
+   border-radius: 5px;
+   box-sizing: border-box;
+   
+ }
+
+ input[type="submit"]{
+  background-image: url(alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+   width: 100%;
+   padding:10px;
+   border: none;
+   border: 1px solid;
+   border-radius: 5px;
+   background-color: #000000;
+   color: #fff;
+   cursor: pointer;
+ }
+ 
+
+ input[type="submit"]:hover{
+   background-color: #181cf3;
+
+ }
+
+ 
+ #inicio{
+  background-image: url(jongsun-lee-F-pSZO_jeE8-unsplash.jpg);
+  color: #fff;
+  font-size: 20px;
+  background-attachment: fixed;
+  border: solid;
+  border-color: #000000;
+  box-shadow: 0 0 10px #fff;
+  
+ }
+.scroll-to-top:hover{
+  background-color: #838282;
+  
+}
+#proyectos{
+  background-image: url();
+  color: #fff;
+  font-size: 20px;
+  background-attachment: fixed;
+  border: solid;
+  max-width: 500px;
+   margin: 50px auto;
+   background-color: #000000;
+   padding: 20px;
+   border-radius: 7%;
+   background-image: url(alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+   background-attachment: fixed;
+   box-shadow: 0 0 10px #fff;
+}
+#sobremi{
+  color: #fff;
+  max-width: 500px;
+   margin: 50px auto;
+   border: solid;
+   background-color: #000000;
+   padding: 20px;
+   border-radius: 7%;
+   background-image: url(alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+   background-attachment: fixed;
+   box-shadow: 0 0 10px #fff;
+
+}
+#contacto{
+  color: #fff;
+  max-width: 500px;
+  border: solid;
+   margin: 50px auto;
+   background-color: #000000;
+   padding: 20px;
+   border-radius: 7%;
+   background-image: url(alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+   background-attachment: fixed;
+   box-shadow: 0 0 10px #fff;
+
+}
+
+.formulario{
+  background-image: url(alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+  background-attachment: fixed;
+}
+
+a.inicio  {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+  
+  
+
+}
+a.sobremi  {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+
+}
+a.proyectos  {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+
+}
+a.contacto {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+
+}
+a.mapa  {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+
+}
+a.Formulario  {
+  border: solid;
+  border-radius: 7px;
+  box-shadow: var(--sombra)
+
+}
+h1.text{
+  color: #bebebe;
+  text-shadow: 0 0 5px #bebebe;
+  text-decoration: solid;
+  text-decoration: underline white solid;
+}
+.logo img{
+  margin-left: 70px;
+  height: auto;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: solid;
+  border-color: rgb(255, 145, 71);
+  box-shadow: 0 0 30px #e20101;
+
+}
+marquee.marque{
+  text-shadow: 0 0 5px #838282 ;
+  text-decoration: solid;
+  text-decoration: underline white;
+
+}
